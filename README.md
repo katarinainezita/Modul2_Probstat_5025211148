@@ -74,7 +74,7 @@ tsum.test(
 ```
 didapatkan hasil seperti di bawah ini 
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/2B.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/2B.jpg)
 
 #### c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 
