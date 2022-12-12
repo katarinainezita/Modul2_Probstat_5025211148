@@ -28,7 +28,7 @@ sdev
 
 didapatkan hasil 6.359595
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1A.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/1A.jpg)
 
 #### b. carilah nilai t (p-value)
 
@@ -39,7 +39,7 @@ t.test(sebelum, sesudah, paired=TRUE)
 
 didapatkan hasil seperti pada gambar dibawah ini 
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/1B.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/1B.jpg)
 
 #### c. tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
 
@@ -74,7 +74,7 @@ tsum.test(
 ```
 didapatkan hasil seperti di bawah ini 
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/2B.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/2B.png)
 
 #### c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 
@@ -85,7 +85,7 @@ Kesimpulan yang dapat diambil adalah mobil dikemudikan rata - rata lebih dari 20
 ### 3. (Hipotesa 2 sampel)
 ### Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya didapatkanlah data berikut dari perusahaan saham tersebut.
 
-* gambar tabel 3
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/Tabel3.jpg)
 
 Dari data diatas berilah keputusan serta kesimpulan yang didapatkan dari hasil diatas. Asumsikan nilai variancenya sama, apakah ada perbedaan pada rata-ratanya (α= 0.05)? Buatlah :
 
@@ -114,7 +114,7 @@ tsum.test(
 
 didapatkan hasil sebagai berikut 
 
-* Gambar 3b
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/3B.jpg)
 
 #### c. Lakukan Uji Statistik (df =2)
 
@@ -184,7 +184,6 @@ didapatkan hasil
 
 * Gambar group 3
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4A.png)
 
 #### b. carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
 
@@ -196,8 +195,7 @@ bartlett.test(datatable$Length, datatable$Group)
 
 didapatkan hasil seperti di bawah ini 
 
-* Gambar 4 b
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4B.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4B.png)
 
 #### c. Untuk uji ANOVA, buatlah model linier dengan Panjang versus Grup dan beri nama model tersebut model 1.
 
@@ -208,8 +206,7 @@ summary(model1)
 ```
 didapatkan hasil seperti gambar dibawah ini 
 
-* Gambar 4 c
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/4C.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4C1.png)
 
 ### d. Dari Hasil Poin C , Berapakah nilai-p ? ,  Apa yang dapat Anda simpulkan dari H0?
 
@@ -226,7 +223,8 @@ TukeyHSD(av)
 
 dan didapatkan hasil seperti gambar dibawah
 
-* Gambar 4 e
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4E.jpg)
+
 
 ### f. Visualisasikan data dengan ggplot2
 
@@ -265,8 +263,7 @@ qplot(x = Temp, y = Light, geom = "point", data = GTL) + facet_grid(.~Glass, lab
 ```
 didapatkan hasil seperti pada gambar dibawah
 
-* Gambar 5a
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5A.png)
+
 
 #### b. Lakukan uji ANOVA dua arah untuk 2 faktor
 
@@ -283,8 +280,7 @@ summary(anova)
 
 didapatkan hasil seperti dibawah ini
 
-* gambar 5b
-![ScreenShot](https://raw.github.com/katarinainezita/Modul1_Probstat_5025211148/main/Screenshoot/5B10.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5B.jpg)
 
 
 #### c. Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
@@ -300,7 +296,8 @@ print(summary)
 
 didapatkan hasil seperti gambar berikut
 
-* Gambar 5 c
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5C.jpg)
+
 
 #### d. Lakukan uji Tukey
 
@@ -312,9 +309,9 @@ print(tukey)
 
 didapatkan hasil seperti berikut
 
-* Gambar 5 d 1
-* Gambar 5 d 2
-* Gambar 5 d 3
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5D.jpg)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5D2.jpg)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5D3.jpg)
 
 #### e. Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
 
@@ -333,7 +330,7 @@ write.csv("GTLSummary.csv")
 
 didapatkan hasil
 
-* Gambar 5 e
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5E.jpg)
 
 
 
