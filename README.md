@@ -178,11 +178,11 @@ hist(group3$Length, xlim = c(16, 20))
 
 didapatkan hasil
 
-* Gambar group 1
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4a1.jpg)
 
-* Gambar group 2
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4a2.jpg)
 
-* Gambar group 3
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4a3.jpg)
 
 
 #### b. carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
@@ -236,7 +236,7 @@ ggplot(datatable, mapping = aes(x = Group, y = Length, group = 1)) +  geom_boxpl
 
 dan didapatkan hasil seperti gambar dibawah
 
-
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4f.jpg)
 
 ### 5. (Anova dua arah)
 ### Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan dilakukan sebanyak 27 kali dan didapat data sebagai berikut: Data Hasil Eksperimen. Dengan data tersebut: 
@@ -263,6 +263,7 @@ qplot(x = Temp, y = Light, geom = "point", data = GTL) + facet_grid(.~Glass, lab
 ```
 didapatkan hasil seperti pada gambar dibawah
 
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5a.jpg)
 
 
 #### b. Lakukan uji ANOVA dua arah untuk 2 faktor
