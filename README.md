@@ -238,7 +238,7 @@ ggplot(datatable, mapping = aes(x = Group, y = Length, group = 1)) +  geom_boxpl
 
 dan didapatkan hasil seperti gambar dibawah
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4f.jpg)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4f.png)
 
 ### 5. (Anova dua arah)
 ### Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan dilakukan sebanyak 27 kali dan didapat data sebagai berikut: Data Hasil Eksperimen. Dengan data tersebut: 
