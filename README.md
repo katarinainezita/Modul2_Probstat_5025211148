@@ -197,7 +197,7 @@ bartlett.test(datatable$Length, datatable$Group)
 
 didapatkan hasil seperti di bawah ini 
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4B.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4B.jpg)
 
 #### c. Untuk uji ANOVA, buatlah model linier dengan Panjang versus Grup dan beri nama model tersebut model 1.
 
@@ -208,7 +208,7 @@ summary(model1)
 ```
 didapatkan hasil seperti gambar dibawah ini 
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4C1.png)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/4C1.jpg)
 
 ### d. Dari Hasil Poin C , Berapakah nilai-p ? ,  Apa yang dapat Anda simpulkan dari H0?
 
