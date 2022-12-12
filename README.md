@@ -128,6 +128,8 @@ plotDist(dist = 't', df = 2, col = "blue")
 ```
 didapatkan hasil seperti pada gambar dibawah
 
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/Rplot.ppg)
+
 #### d. Nilai Kritikal
 
 Nilai kritikal didapatkan dengan menggunakan
