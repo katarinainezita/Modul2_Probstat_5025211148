@@ -265,7 +265,7 @@ qplot(x = Temp, y = Light, geom = "point", data = GTL) + facet_grid(.~Glass, lab
 ```
 didapatkan hasil seperti pada gambar dibawah
 
-![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5a.jpg)
+![ScreenShot](https://raw.github.com/katarinainezita/Modul2_Probstat_5025211148/main/Screenshoot/5a.png)
 
 
 #### b. Lakukan uji ANOVA dua arah untuk 2 faktor
